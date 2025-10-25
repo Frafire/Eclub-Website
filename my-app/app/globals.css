@@ -1,8 +1,19 @@
 @import "tailwindcss";
 
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+@theme{
+  --color-eclub-blue: #262b5A;
+  --color-eclub-orange: #E74328;
+  --color-eclub-white: #ECEFED;
+
+  --color-mint-500: oklch(0.72 0.11 178);
+
+
 }
 
 @theme inline {
@@ -14,7 +25,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #000000;
     --foreground: #ededed;
   }
 }
