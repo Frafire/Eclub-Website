@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-export default function About() {
+export default function NotFound() {
     return (
 <div className="flex min-h-screen items-center justify-center bg-eclub-blue font-sans">
         <main className="flex flex-col items-center justify-center gap-10">
@@ -12,7 +12,7 @@ export default function About() {
                 <p className="text-2xl font-medium break-words text-dull text-color-eclub-white dark:text-color-eclub-white">
                     Umhh forse ti sei perso... oppure è colpa nostra.
                 </p>
-                <Link href="/"  passHref className="rounded flex w-full md:w-fit group items-center gap-4 justify-center border-2 text-color-eclub-white white:text-color-eclub-white border-eclub-orange font-semibold hover:bg-eclub-orange p-3 md:p-6 capitalize focus:outline-none hover:scale-105 active:scale-90 shadow-lg hover:shadow-xl ">
+                <Link href="/"  passHref className="rounded flex w-full md:w-fit group items-center gap-4 justify-center border-2 transition duration-300 ease-in-out text-color-eclub-white white:text-color-eclub-white border-eclub-orange font-semibold hover:bg-eclub-orange p-3 md:p-6 capitalize focus:outline-none hover:scale-105 active:scale-90 shadow-lg hover:shadow-xl ">
                         Torna alla Home Page
                 </Link>
              </div>
