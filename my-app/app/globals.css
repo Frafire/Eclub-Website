@@ -5,6 +5,10 @@
   --foreground: #171717;
 }
 
+@Theme{
+  --color-eclub-blue: #333366;
+
+}
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
